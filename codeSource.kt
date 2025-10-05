@@ -68,9 +68,6 @@ class Reservation(var vehicule: Vehicule, var conducteur: Conducteur, var dateDe
     }
 
 
-//    fun afficherDetails(){
-//        println("Vehicule : ${vehicule.modele}, Conducteur : ${conducteur.nom}, Date Debut : $dateDebut, Date Fin : $dateFin , Kilometrage Debut : $kilometrageDebut, Kilometrage Fin : $kilometrageFin")
-//
 
     fun afficherDetails() {
         println("---- Réservation ----")
@@ -126,7 +123,6 @@ class ParcAutomobile(var vehicules : MutableList<Vehicule> , var reservations : 
 }
 
 //Partie 4 : Gestion des Exceptions
-
 
 class VehiculeIndisponibleException(message: String): Exception(message)
 class VehiculeNonTrouveException(message: String): Exception(message)
@@ -207,6 +203,6 @@ fun main(){
     parc.supprimerVehicule("GG-000-HH")
 
     // Afficher état final
-//    println("État final du parc :")
-//    parc.vehicules.forEach { it.afficherDetails() }
+   println("État final du parc :")
+   parc.vehicules.forEach { it.afficherDetails() }
 }
