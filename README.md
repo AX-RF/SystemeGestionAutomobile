@@ -112,6 +112,6 @@ Elles sont utilisées lors des tentatives de réservation de véhicules inexista
 
 ---
 
-
-## 📸 Screenshots
+## 🧠 Exemple de Sortie Console
+# 📸 Screenshots
 ![Homepage Screenshot](console.png)
